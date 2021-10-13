@@ -60,6 +60,7 @@ p {
   background-color: rgba(63, 68, 66, 0.9);
   width: 40%;
   height: 100%;
+  display: none;
 }
 
 .mobile_menu__items {
@@ -75,6 +76,12 @@ p {
   margin-bottom: 10px;
   border-bottom: 2px solid #fbf4f4;
   margin-right: 200px;
+}
+
+.mobile_nav__link:link,
+.mobile_nav__link:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .close_mobile_menu {
