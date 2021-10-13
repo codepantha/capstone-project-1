@@ -14,28 +14,28 @@ closeMenu.addEventListener('click', () => {
 
 const featuredInstructors = [
   {
-    name: 'Yochai Benkler',
+    name: 'John Risky',
     qualification: 'A software engineer with over 20 years experience.',
     info: 'A software engineer with over 20 years experience.A software engineer with over 20 years experience.',
     img: 'img/instructor1.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'Code Xin',
     qualification: 'A software engineer with over 20 years experience.',
     info: 'A software engineer with over 20 years experience.A software engineer with over 20 years experience.',
-    img: 'img/instructor1.jpg',
+    img: 'img/instructor2.jpg',
   },
   {
-    name: 'Yochai Benkler',
-    qualification: 'A software engineer with over 20 years experience.',
+    name: 'Emeli Compaila',
+    qualification: 'Full stack dev with 7 years experience.',
     info: 'A software engineer with over 20 years experience.A software engineer with over 20 years experience.',
-    img: 'img/instructor1.jpg',
+    img: 'img/instructor3.png',
   },
   {
-    name: 'Yochai Benkler',
-    qualification: 'A software engineer with over 20 years experience.',
+    name: 'Jessica Bugs',
+    qualification: '12 years a javascript developer',
     info: 'A software engineer with over 20 years experience.A software engineer with over 20 years experience.',
-    img: 'img/instructor1.jpg',
+    img: 'img/instructor4.png',
   },
 ];
 

@@ -4,7 +4,7 @@
 
 > This is my capstone project website showcasing my skills and mastery of HTML, CSS, JAVASCRIPT and responsive design.
 
-![Capstone project](img/capstone.PNG)
+![Capstone project](img/codeniversity_desktop2.PNG)
 
 
 ## Built With
@@ -15,7 +15,7 @@
 
 ## Live Demo 🔗
 
-[Live Demo Link](https://code-panther.github.io/Portfolio/)
+[Live Demo Link](https://code-panther.github.io/capstone-project-1/)
 
 
 ## Getting Started
@@ -53,9 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) whose design this project is modeled after.
 
 ## 📝 License
 
