@@ -12,25 +12,56 @@
 </head>
 <body>
   <div class="container">
-    <div class="header-bg">
-    </div>
     <header class="header">
       <button type="button" class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
+
+      <div class="user_nav_social">
+        <ul class="user_nav__items">
+          <li class="user_nav__item">
+            <a href="#" class="social__link">
+              <img src="img/SVG/facebook.svg" alt="facebook logo" class="user_nav_follow">
+            </a>
+          </li>
+          <li class="user_nav__item">
+            <a href="#" class="social__link">
+              <img src="img/SVG/twitter.svg" alt="twitter logo" class="user_nav_follow">
+            </a>
+          </li>
+          <li class="user_nav__item"><a href="" class="logout">logout</a></li>
+        </ul>
+      </div>
+
+      <nav class="main-nav">
+        <div class="logo_div">
+          <a href="index.html" class="homepage">
+            <img src="img/logo1.svg" alt="Codeniversity logo" class="logo_div__logo">
+          </a>
+        </div>
+        <ul class="nav__items">
+          <li class="nav__item active"><a href="./about.html" class="nav__link active">About</a></li>
+          <li class="nav__item"><a href="./about.html" class="nav__link">Course</a></li>
+          <li class="nav__item"><a href="./about.html" class="nav__link">Join</a></li>
+          <li class="nav__item"><a href="./about.html" class="nav__link">Partners</a></li>
+          <li class="nav__item"><a href="./about.html" class="nav__link">News</a></li>
+        </ul>
+      </nav>
+
     </header>
 
-    <section class="intro">
-      <h1 class="intro-heading">THE COMPLETE WEB DEVELOPER COURSE: GAIN MASTERY </h1>
-      <p class="paragraph border-silver bg-white">
+    <section class="intro about">
+      <h1 class="intro-heading about">THE COMPLETE WEB DEVELOPER COURSE: GAIN MASTERY </h1>
+      <hr class="underline about">
+      <p class="paragraph about border-silver bg-white">
         It's scary to change careers. Gain the required skills like Algorithms and data structures, and confidence that you need to land a six-figure job as a software engineer in a top company code by working through the hundreds of hours of lessons on Codeniversity.
       </p>
 
       <p class="paragraph contact">
         Please contact us via email for any further questions or enquiries about Codeniversity.<br>
-        <span class="email">hello@codeniversity.com</span>
+        <span class="email"><a href="mailto:hello@codeniversity.com" class="email__link">hello@codeniversity.com</a></span>
       </p>
     </section>
 
@@ -53,27 +84,29 @@
         <p class="paragraph small">See what students who have bought this course have to say</p>
       </div>
 
-      <div class="testimony"><!--Gonna have a bg image-->
+      <div class="testimony-row">
+        <div class="testimony">
 
-        <div class="reddish-overlay">
-          <h3 class="testifier_name">John Risky</h3>
-          <span class="instructor_qualification white">Frontend dev at Shopify.</span>
-          <hr class="instructor__dash">
-          <p class="instructor__info white center">
-            I built my skills using this course and landed a job at Shopify in less than a year.
-          </p>
+          <div class="reddish-overlay">
+            <h3 class="testifier_name">John Risky</h3>
+            <span class="instructor_qualification white">Frontend dev at Shopify.</span>
+            <hr class="instructor__dash">
+            <p class="instructor__info white center">
+              I built my skills using this course and landed a job at Shopify in less than a year.
+            </p>
+          </div>
         </div>
-      </div>
       
-      <div class="testimony">
-        <div class="reddish-overlay">
-          <!-- <img src="img/instructor1.jpg" class="testifier-photo"> -->
-          <h3 class="testifier_name">John Risky</h3>
-          <span class="instructor_qualification white">Frontend dev at Shopify.</span>
-          <hr class="instructor__dash">
-          <p class="instructor__info white center">
-            I built my skills using this course and landed a job at Shopify in less than a year.
-          </p>
+        <div class="testimony">
+          <div class="reddish-overlay">
+            <!-- <img src="img/instructor1.jpg" class="testifier-photo"> -->
+            <h3 class="testifier_name">John Risky</h3>
+            <span class="instructor_qualification white">Frontend dev at Shopify.</span>
+            <hr class="instructor__dash">
+            <p class="instructor__info white center">
+              I built my skills using this course and landed a job at Shopify in less than a year.
+            </p>
+          </div>
         </div>
       </div>
 
