@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="mobile_menu">
+  <nav class="mobile_menu">
     <ul class="mobile_menu__items">
       <li class="mobile_menu__item">
         <a href="index.html" class="mobile_nav__link">Home</a>
@@ -27,7 +27,7 @@
       </li>
     </ul>
     <button type="button" class="close_mobile_menu" id="close_menu">X</button>
-  </div>
+  </nav>
 
   <div class="container">
     <header class="header">
@@ -37,17 +37,29 @@
         <span class="bar"></span>
       </button>
 
-      <div class="user_nav_social">
+      <nav class="user_nav_social">
         <ul class="user_nav__items">
           <li class="user_nav__item">
-            <img src="img/SVG/facebook.svg" alt="facebook logo" class="user_nav_follow">
+            <a href="#" class="social__link">
+              <img
+                src="img/SVG/facebook.svg"
+                alt="facebook logo"
+                class="user_nav_follow"
+              />
+            </a>
           </li>
           <li class="user_nav__item">
-            <img src="img/SVG/twitter.svg" alt="twitter logo" class="user_nav_follow">
+            <a href="#" class="social__link">
+              <img
+                src="img/SVG/twitter.svg"
+                alt="twitter logo"
+                class="user_nav_follow"
+              />
+            </a>
           </li>
-          <li class="user_nav__item">logout</li>
+          <li class="user_nav__item"><a href="" class="logout">logout</a></li>
         </ul>
-      </div>
+      </nav>
 
       <nav class="main-nav">
         <div class="logo_div">
@@ -177,7 +189,14 @@
       </div>
     </section>
 
-    <footer class="footer">&copy; 2021 with ❤️ by codepanther</footer>
+    <footer class="footer">
+      <img src="img/logo1.svg" alt="logo" class="footer__logo" />
+      <p class="footer__text">
+        &copy; 2021 Codeniversity.com <br />
+        Made with ❤️ by codepanther <br />
+        <a href="https://codepanther.io" class="footer__link">codepanther.io</a>
+      </p>
+    </footer>
   </div>
 
   <script src="js/script.js"></script>

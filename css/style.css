@@ -47,9 +47,9 @@ p {
 }
 
 .bar {
-  border: 7px solid #272a31;
+  border: 6px solid #272a31;
   padding: 4px;
-  width: 32px;
+  width: 28px;
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -374,9 +374,9 @@ p {
 
 .testimony {
   display: flex;
-  background-image: url("../img/instructor1.jpg");
-  background-size: 200px 200px;
-  background-repeat: repeat-y;
+  background-image: url("../img/student.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-bottom: 30px;
   flex: 0 0 45%;
 }
@@ -449,13 +449,17 @@ p {
   color: #5e5e5e;
 }
 
-.footer__logo {
-  font-size: 20px;
-}
-
 .footer__text {
   padding: 10px;
+  font-size: 14px;
   text-align: center;
+  color: #272a31;
+  line-height: 20px;
+}
+
+.footer__link {
+  text-decoration: none;
+  cursor: pointer;
   color: #5e5e5e;
 }
 
@@ -674,7 +678,7 @@ p {
     display: flex;
     width: 100%;
     padding: 10px 10% 10px 4%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
     align-items: center;
     border-bottom: 1px solid #ece2e2;
     box-shadow: 10px 2px 8px #888;
