@@ -53,16 +53,18 @@ const featuredInstructors = [
 
 const instructors = document.querySelector('.instructor-rows');
 
-for (let i = 0; i < featuredInstructors.length; i += 1) {
-  instructors.innerHTML += `<div class="instructor">
-  <img src="${featuredInstructors[i].img}" alt="instructor 1" class="instructor__photo">
-
-  <div class="details">
-    <h3 class="instructor__name">${featuredInstructors[i].name}</h3>
-    <span class="instructor_qualification">${featuredInstructors[i].qualification}</span>
-    <hr class="instructor__dash">
-    <p class="instructor__info">${featuredInstructors[i].info}
-    </p>
-  </div>
-</div>`;
+if (instructors) {
+  for (let i = 0; i < featuredInstructors.length; i += 1) {
+    instructors.innerHTML += `<div class="instructor">
+    <img src="${featuredInstructors[i].img}" alt="instructor 1" class="instructor__photo">
+  
+    <div class="details">
+      <h3 class="instructor__name">${featuredInstructors[i].name}</h3>
+      <span class="instructor_qualification">${featuredInstructors[i].qualification}</span>
+      <hr class="instructor__dash">
+      <p class="instructor__info">${featuredInstructors[i].info}
+      </p>
+    </div>
+  </div>`;
+  }
 }
