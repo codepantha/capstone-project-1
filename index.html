@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codeniversity</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="mobile_menu">
+    <ul class="mobile_menu__items">
+      <li class="mobile_menu__item">
+        <a href="index.html" class="mobile_nav__link">Home</a>
+      </li>
+      <li class="mobile_menu__item">
+        <a href="about.html" class="mobile_nav__link">About</a>
+      </li>
+      <li class="mobile_menu__item">
+        <a href="#" class="mobile_nav__link">Course</a>
+      </li>
+      <li class="mobile_menu__item">
+        <a href="#" class="mobile_nav__link">Partners</a>
+      </li>
+    </ul>
+    <button type="button" class="close_mobile_menu" id="close_menu">X</button>
+  </nav>
+
+  <div class="container">
+    <header class="header">
+      <button type="button" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="user_nav_social">
+        <ul class="user_nav__items">
+          <li class="user_nav__item">
+            <a href="#" class="social__link">
+              <img
+                src="img/SVG/facebook.svg"
+                alt="facebook logo"
+                class="user_nav_follow"
+              />
+            </a>
+          </li>
+          <li class="user_nav__item">
+            <a href="#" class="social__link">
+              <img
+                src="img/SVG/twitter.svg"
+                alt="twitter logo"
+                class="user_nav_follow"
+              />
+            </a>
+          </li>
+          <li class="user_nav__item"><a href="" class="logout">logout</a></li>
+        </ul>
+      </nav>
+
+      <nav class="main-nav">
+        <div class="logo_div">
+          <a href="index.html" class="homepage">
+            <img src="img/logo1.svg" alt="Codeniversity logo" class="logo_div__logo">
+          </a>
+        </div>
+        <ul class="nav__items">
+          <li class="nav__item active"><a href="about.html" class="nav__link active">About</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">Course</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">Join</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">Partners</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">News</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section class="intro">
+      <h1 class="intro-heading">THE COMPLETE WEB DEVELOPER COURSE: GAIN MASTERY </h1>
+      <p class="paragraph border-white">
+        Unlike most online courses and free tutorials, you’ll be using everything you learn to build complex, professional, real-world projects and your own professional portfolio website.
+      </p>
+
+      <h2 class="sub-heading">
+        Learn to code on your schedule
+      </h2>
+      <p class="paragraph">@Codeniversity with over 30 hours on-demand video</p>
+    </section>
+
+    <section class="main-program">
+      <div class="learn">
+        <h2 class="stack">You will learn</h2>
+        <hr class="underline">
+      </div>
+
+      <div class="row-flex">
+        <div class="overlay">
+          <div class="topic">
+            <img src="img/SVG/html-five2.svg" alt="html 5" class="topic__icon">
+            <p class="topic__title">html</p>
+            <p class="topic__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="topic">
+            <img src="img/SVG/css3.svg" alt="html 5" class="topic__icon">
+            <p class="topic__title">css</p>
+            <p class="topic__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="topic">
+            <img src="img/SVG/javascript.svg" alt="html 5" class="topic__icon">
+            <p class="topic__title">javascript</p>
+            <p class="topic__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="topic">
+            <img src="img/SVG/react.svg" alt="html 5" class="topic__icon">
+            <p class="topic__title">react</p>
+            <p class="topic__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="overlay">
+          <div class="topic">
+            <img src="img/SVG/ruby.svg" alt="html 5" class="topic__icon">
+            <p class="topic__title">ruby</p>
+            <p class="topic__info">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="cta">Become a software engineer</button>
+    </section>
+
+    <section class="featured-instructors">
+      <div class="instructors">
+        <h2 class="featured-instructors__heading">Featured instructors</h2>
+        <hr class="underline">
+      </div>
+
+      <div class="instructor-rows">
+        <!-- Instructor details are served dynamically by js -->
+      </div>
+
+      <button type="button" class="more-button">more<img alt="arrow-down" src="img/SVG/chevron-down.svg"></button>
+
+    </section>
+
+    <section class="partners">
+      <div>
+        <h3 class="testifier_name white">Partners</h3>
+        <hr class="instructor__dash reddish">
+      </div>
+      <div class="partner_logos">
+        <div class="logo_div">
+          <img src="img/logo1.svg" alt="logo1" class="partner_logo">
+        </div>
+
+        <div class="logo_div">
+          <img src="img/logo2.svg" alt="logo2" class="partner_logo">
+        </div>
+
+        <div class="logo_div">
+          <img src="img/logo3.svg" alt="logo3" class="partner_logo">
+        </div>
+
+        <div class="logo_div">
+          <img src="img/logo4.svg" alt="logo4" class="partner_logo">
+        </div>
+
+        <div class="logo_div">
+          <img src="img/logo5.svg" alt="logo5" class="partner_logo">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <img src="img/logo1.svg" alt="logo" class="footer__logo" />
+      <p class="footer__text">
+        &copy; 2021 Codeniversity.com <br />
+        Made with ❤️ by codepanther <br />
+        <a href="https://codepanther.io" class="footer__link">codepanther.io</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
