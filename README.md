@@ -15,7 +15,7 @@
 
 ## Live Demo 🔗
 
-[Live Demo Link](https://code-panther.github.io/capstone-project-1/)
+[Live Demo Link](https://codepantherr.github.io/capstone-project-1/)
 
 
 ## Getting Started
